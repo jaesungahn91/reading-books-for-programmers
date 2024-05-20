@@ -86,4 +86,15 @@
 - 정적 IP 주소
 
 **동적 할당과 DHCP**
-- 정적 할당과는 달리 
+- 정적 할당과는 달리 IP 주소를 직접 일일이 입력하지 않아도 호스트에 IP 주소가 동적으로 할당되는 방식
+- 동적 IP 주소
+- IP 동적 할당에 사용되는 대표적인 프로토콜이 바로 DHCP(Dynamic Host Configuration Protocol)
+	- IP 주소를 제공하는 DHCP 서버가 필요
+	- DHCP 서버의 역할은 일반적으로 라우터(공유기)가 수행
+- 클라이언트와 DHCP 서버 간에 주고받는 메시지 종류
+	- DHCP Discover
+	- DHCP Offer
+	- DHCP Request
+	- DHCP Acknowledgment
+
+## 03-3 라우팅
