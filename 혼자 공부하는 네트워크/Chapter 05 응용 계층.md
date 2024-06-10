@@ -121,3 +121,6 @@
 - 500 : Internal Server Error / 요청을 처리할 수 없음
 - 502 : Bad Gateway / 중간 서버의 통신 오류
 - 503 : Service Unavailable / 현재는 요청을 처리할 수 없으나 추후 가능할 수도 있음
+
+## 05-3 HTTP 헤더와 HTTP 기반 기술
+### 
