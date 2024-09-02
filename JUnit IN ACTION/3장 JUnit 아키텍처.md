@@ -17,3 +17,10 @@
 - JUnit 4 rule은 테스트 메서드 호출을 가로채는 컴포넌트.
 - JUnit 4 rule을 사용해서 테스트 메서드가 실행되기 전후에 다른 작업을 수행할 수 있다.
 - 실행할 테스트에 동작을 추가하려면 TestRule 인터페이스를 구현한 필드에 @Rule 애노테이션을 사용
+- ExpectedException, TemprorayyFolder
+- JUnit 4 rule을 작성하려면 TestRule 인터피에스를 구현하는 클래스를 만들어야 함
+- JUnit 5에서 4를 사용하는 데 필요한 의존성은 `junit-vintage-engine`
+
+### 3.2.4 JUnit 4 아키텍처의 단점
+- JUnit 4가 제공하는 API가 충분히 유연하지 못해 IDE나 빌드 도구와 지나치게 결합도가 높아짐
+
