@@ -1,0 +1,12 @@
+- maven-archetype-plugin
+	- 새 프로젝트 생성
+- maven-clean-plugin
+	- 정리 단계를 거치게 하고 정리 단계와 관련한 모든 플러그인, target/ 폴더 삭제
+- maven-compiler-plugin
+	- 컴파일 단계와 관련한 모든 플러그인 실행
+- maven-surefire-plugin
+	- 단위 테스트를 실행하는 데 사용하는 Maven 플러그인 중 하나
+	- 소스 코드에 대한 단위 테스트를 실행할 수 있게 도와준다.
+- maven-surefire-report-plugin
+	- HTML 형식의 리포트를 생성하는 작업
+	- 직접 호출해야 한다.

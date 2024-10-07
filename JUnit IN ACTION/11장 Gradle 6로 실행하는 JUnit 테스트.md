@@ -1,0 +1,19 @@
+- Gradle은 프로젝트 설정 파일을 Groovy를 기반으로 한 DSL로 작성한다.
+- Gradle은 빌드의 의도를 선언적으로 나타낸다.
+- Gradle을 활용해서는 빌드가 어떻게 실행되어야 하는지 절차를 말하는 것이 아니라, 결과가 무엇과 같아야 하는지 최종 목적을 말하게 된다.
+- build.gradle 설정 파일
+	- plugin : 플러그인 선언
+	- repositorires : 저장소 선언
+	- dependencies : 의존성 선언
+	- application : 애플리케이션 관련
+	- test : 테스트 관련
+- 표준적인 의존성 구성의 종류와 의미
+	- implemenation : 소스 코드를 컴파일할 때 필요한 의존성
+	- runtime : 런타임에 필요한 의존성.
+	- testImplementation : 테스트 코드를 컴파일할 때 필요한 의존성
+	- testRuntime : 테스트를 런타임에 실행하기 위한 의존성
+	- runtimeOnly : 컴파일 타임이 아닌 런타임에만 필요한 의존성
+	- testRuntimeOnly : 테스트 컴파일 타임이 아니라 테스트 런타임에만 필요한 의존성
+- Gradle 플러그인은 태스크의 집합을 말한다.
+- Gradle에는 스크립트 플러그인과 바이너리 플러그인이라는 두 가지 플러그인이 있다.
+- 바이너리 플러그인은 ID로 식별이 되는데, 널리 쓰이는 플러그인은 보통 이름이 짧다.
